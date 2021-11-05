@@ -1,0 +1,79 @@
+.gt_wrap {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	position: absolute;
+}
+.gt_container {
+	width: 100%;
+	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.gt_wrap_header {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.gt_header {
+	width: 1292px;
+	height: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+	-webkit-box-align: flex-end;
+		-ms-flex-align: flex-end;
+			align-items: flex-end;
+}
+.gt_logo_link {
+	width: 155.02px;
+	height: 56.98px;
+}
+.gt_logo_header {
+	width: 100%;
+	height: 100%;
+}
+.header__burger {
+	display: none;
+} 
+.gt_navigation {
+	padding-bottom: 17px;
+}
+.gt_nav_list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.gt_nav_item {
+	margin-left: 50px;
+}
+.gt_nav_link, .gt_nav_link:visited {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	color: #000000;
+}

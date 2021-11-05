@@ -1,0 +1,299 @@
+.au_wrap {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	position: absolute;
+}
+.au_container {
+	width: 100%;
+	min-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.au_wrap_header {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.au_header {
+	width: 1292px;
+	height: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+	-webkit-box-align: flex-end;
+		-ms-flex-align: flex-end;
+			align-items: flex-end;
+}
+.au_header_link {
+	width: 155.02px;
+	height: 56.98px;
+}
+.au_header_logo {
+	width: 100%;
+	height: 100%;
+}
+.au_header_list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    padding-bottom: 18px;
+}
+.au_header_item {
+	margin-left: 50px;
+}
+.au_header_link, .au_header_link:visited {
+	font-family: "Roboto_Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	-webkit-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	color: #000000;
+}
+.au_wrap_main {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 auto;
+	        flex: 1 1 auto;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.au_main {
+    width: 1292px;
+}
+.about_us {
+    margin-top: 160px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+
+.h1_title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.au_paragraph {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.au_section1 > p:nth-child(2), .au_section1 > p:nth-child(3) {
+    padding-bottom: 20px;
+}
+.mission_contact {
+    margin-top: -32px;
+    width: 1081px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.h3_title {
+    font-family: "Play_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.au_mission > p:nth-child(2) {
+    padding-bottom: 20px;
+}
+.au_contact {
+    width: 331px;
+		position: relative;
+    left: 50px;
+}
+.au_contact_section {
+    width: 100%;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.au_whatsapp {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#third_whats {
+	margin-left: 16px;
+	margin-top: 5px;
+	padding: 0;
+}
+.au_wrap_footer {
+    margin-top: 160px;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    background: #F9F9F9;
+}
+.au_footer {
+    width: 1292px;
+    height: 153px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 75px;
+}
+.au_footer_section1 {
+}
+.au_company_year {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 65px;
+}
+.au_footer_section2 {
+    width: 408px;
+    height: 135.49px;
+}
+.au_footer_nav {
+    width: 100%;
+}
+.au_footer_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.au_footer_link, .au_footer_link:visited {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+}
+.au_footer_icons {
+    padding-top: 73.51px;
+}
+
+.au_icons_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+			justify-content: flex-end;
+	-webkit-box-align: start;
+		-ms-flex-align: start;
+			align-items: start;
+}
+.au_icons_item {
+    padding-left: 21px;
+}
+.au_icons_link a {
+    height: 27.72px;
+    width: 27.72px;
+}
+@media (min-width: 768px) and (max-width: 1290px) {
+	canvas {
+	position: absolute;
+	top: -50px !important;
+	left: -200px !important;
+	width: 241% !important;
+	height: 146% !important;
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+	}
+}
+@media (min-width: 1290px) {
+canvas {
+	position: absolute;
+	top: -473px !important;
+	left: -1100px !important;
+	width: 548% !important;
+	height: 257% !important;
+	-webkit-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+				transform: scale(0.5);
+}
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#hexa {
+	width: 511px;
+	height: 613px;
+	-webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	        clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	-webkit-transform: rotate(
+90deg);
+	    -ms-transform: rotate(
+90deg);
+	        transform: rotate(
+90deg);
+	position: relative;
+	top: -34px;
+	overflow: hidden;
+}
+.DAF_br {
+	display: none;
+}

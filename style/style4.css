@@ -1,0 +1,132 @@
+.main_token {
+    margin-top: 160px;
+    width: 100%;
+    display: none;
+}
+.token_img {
+    padding-top: 20px;
+    height: 467px;
+    width: 1286px;
+}
+.main_supply {
+    margin-top: 164px;
+    width: 100%;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.main_supply-section .g_token_paragraph {
+    padding-top: 18px;
+}
+
+.gt_main_form {
+    margin-top: 164px;
+    width: 100%;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.gt_form_section .g_token_paragraph {
+    padding-top: 10px;
+}
+.gt_form {
+    padding-top: 20px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 520px;
+}
+.gt_input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #808080;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px 20px 12px 20px;
+    margin-bottom: 10px;
+}
+#textarea {
+    height: 135px;
+    width: 520px;
+    resize: none;
+}
+input::-webkit-input-placeholder, #textarea::-webkit-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input::-moz-placeholder, #textarea::-moz-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input:-ms-input-placeholder, #textarea:-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input::-ms-input-placeholder, #textarea::-ms-input-placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+input[type="text"],
+input::placeholder,
+#textarea[type="text"],
+#textarea::placeholder {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+}
+.gt_form_btn {
+    border: 3px solid #FFAC22;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 7px;
+    background-color: Transparent;
+    width: 106px;
+    height: 50px;
+    padding: 10px 30px 12px 30px;
+    font-family: "Roboto_Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+.gt_form_section {
+    width: 608px;
+    height: 509px;
+}
+.gt_form_img {
+    height: 448px;
+    width: 560px;
+}
+#gt_main_form_br {
+    display: none;
+}

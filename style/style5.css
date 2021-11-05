@@ -1,0 +1,107 @@
+.gt_wrap_footer {
+    margin-top: 160px;
+    width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+    background: #F9F9F9;
+}
+.gt_footer {
+    width: 1292px;
+    height: 153px;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 75px;
+}
+.company_year {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 65px;
+}
+.gt_footer_section2 {
+    width: 408px;
+    height: 135.49px;
+}
+.gt_footer_nav {
+    width: 100%;
+}
+.gt_footer_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-between;
+		-ms-flex-pack: space-between;
+			justify-content: space-between;
+}
+.gt_footer_link, .gt_footer_link:visited {
+    font-family: "Roboto_Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 140%;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+}
+.gt_footer_icons {
+    padding-top: 73.51px;
+}
+
+.gt_icons_list {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+			justify-content: flex-end;
+	-webkit-box-align: start;
+		-ms-flex-align: start;
+			align-items: start;
+}
+.gt_icons_item {
+    padding-left: 21px;
+}
+.gt_icons_link img {
+    height: 27.72px;
+    width: 27.72px;
+}
+
+.sec_p {
+  /* position: relative;
+  top: 24px; */
+  padding-top: 20px;
+}
+#bigG {
+  position: relative;
+  top: 119px;
+  left: -52px;
+}
+#plus1 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  font-size: 62px;
+  color: #bdbdbd;
+  top: 128px;
+  left: -26px;
+  font-weight: bold;
+}
+#uni {
+  position: relative;
+  top: 115px;
+}
