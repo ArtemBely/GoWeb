@@ -37,7 +37,7 @@ const popupLinks = document.querySelectorAll(".popup_link");
 const body = document.querySelector("body");
 const lockPadding = document.querySelectorAll(".lock_padding");
 
-let unlock = true;
+// let unlock = true;
 
 const timeout = 800;
 
@@ -132,3 +132,5 @@ document.addEventListener("keydown", function (e) {
 		popupClose(popupActive);
 	}
 });
+
+

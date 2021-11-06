@@ -908,12 +908,22 @@
                           <input type="text" name="Имя" class="pop_input3" placeholder="Name" required>
                           <input type="text" name="Email" class="pop_input3" placeholder="Email" required>
                           <input type="text" name="Телефон" class="pop_input3" placeholder="Phone" required>
-
-                          <input list='purpose3' type="text" name="Purpose" class="pop_input3" placeholder="Purpose" list="purpose" required>
-                          <datalist id="purpose3">
-                              <option value="Computing power for AI">
-                              <option value="Cryptomining">
-                          </datalist>
+                            <div class="input__wrap">
+                          <input list='purpose3' type="text" name="Purpose" class="pop_input3"  id="input_purpose" placeholder="Purpose" list="purpose" required>
+                          <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                          <ul class="droplist droplist-open">
+                              <li class="dropItem">Computing power for AI</li>
+                              <li class="dropItem">Cryptomining</li>
+                          </ul>
+                          
+                            </div>
+                            
+                           <!-- <datalist id="purpose3">
+                              
+                              <option class="label">Computing power for AI</option>
+                              <option class="label" >Cryptomining</option>
+                               [
+                          </datalist>  --> 
 
                           <input type="text" name="Volume" class="pop_input3" placeholder="Order quantity" required>
                           <input type="text" name="Timeline" class="pop_input3" placeholder="Delivery time" required>
@@ -971,5 +981,6 @@
       src="https://api.cappasity.com/api/player/cappasity-ai"
     ></script>
     <script src="../scripts/script5.js"></script>
+    <script src="https://use.fontawesome.com/8a8b32f903.js"></script>
 </body>
 </html>
