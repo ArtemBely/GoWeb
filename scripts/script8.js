@@ -3,7 +3,7 @@ const popupLinks2 = document.querySelectorAll(".cps_modular_btn");
 const inputPurpose = document.querySelector('#input_purpose');
 const dropList = document.querySelector('.droplist');
 const dropItem = document.querySelectorAll('.dropItem');
-const iconInput =document.querySelector('.fa-chevron-circle-down');
+const iconInput =document.querySelector('.fa-sort-desc');
 
 inputPurpose.onclick = () => {
   dropList.className = "droplist-open";
