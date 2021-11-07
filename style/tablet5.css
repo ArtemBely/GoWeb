@@ -50,15 +50,26 @@
     }
     .container2 {
       position: absolute;
-      width: 297px;
-      height: 315px;
-      top: 74px;
-      left: 0px;
-      -webkit-transform: scale(0.4) rotateY(45deg);
-      -ms-transform: scale(0.4) rotateY(45deg);
-      transform: scale(0.4) rotateY(45deg);
+      width: 672px;
+      height: 715px;
+      top: -169px;
+      left: -120px;
+      -webkit-transform: scale(0.7) rotateY(45deg);
+      -ms-transform: scale(0.7) rotateY(45deg);
+      transform: scale(0.7) rotateY(45deg);
+    }
+    .newCanvas {
+      z-index: 1000;
+      position: relative;
+      left: -1311px;
+      top: -450px;
+      transform: scale(0.5);
+      height: 1603px;
+      width: 3182px;
     }
     .h1_title {
+        position: relative;
+        z-index: 1000;
         font-size: 50px;
         line-height: 58px;
         width: 532px;
