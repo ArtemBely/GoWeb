@@ -256,14 +256,16 @@
     }
     .container2 {
         position: absolute;
-        width: 228px;
-        height: 242px;
-        top: 0px;
-        left: 0px;
+        width: 1481px;
+        height: 1629px;
+        top: -610px;
+        left: -658px;
         -webkit-transform: scale(0.3);
             -ms-transform: scale(0.3);
                 transform: scale(0.3);
     }
+
+     
     .cps_computing {
         position: relative;
         margin-top: -164px !important;

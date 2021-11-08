@@ -640,19 +640,28 @@ body.lock {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-
   .fa-sort-desc::before {
     right: 15px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 1280px) {
-  
   .droplist-open {
     margin-top: 50px;
   }
 
   .dropItem {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .newCanvas {
+    width: 1694px;
+    height: 2233px;
+    transform: none;
+    top: -578px;
+    left: 0;
   }
 }

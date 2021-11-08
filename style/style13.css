@@ -17,11 +17,22 @@ body {
 	display: grid;
 	grid-template-rows: repeat(20, 5vh);
 	-webkit-transform-style: preserve-3d;
-			transform-style: preserve-3d;
-	width: 1681px;
-	height: 305px;
-	top: 67px;
-	left: -214px;
+	transform-style: preserve-3d;
+	width: 520px;
+	top: -60px;
+	left: 195px;
+	transform: scale(0.7);
+	height: 550px;
+	overflow: hidden;
+	z-index: -1;
+}
+.newCanvas {
+	z-index: -1;
+	position: relative;
+	left: -2179px;
+	top: -494px;
+	height: 1540px;
+	width: 4880px;
 	transform: scale(0.7);
 }
 .monitor {

@@ -42,23 +42,34 @@
     .hardware_section2 {
         overflow: visible;
         position: relative;
-        left: 415px;
+        left: 520px;
         width: 297px;
         height: 315px;
         padding: 0px;
-        top: -450px;
+        top: -550px;
     }
     .container2 {
       position: absolute;
-      width: 297px;
-      height: 315px;
-      top: 74px;
-      left: 0px;
-      -webkit-transform: scale(0.4) rotateY(45deg);
-      -ms-transform: scale(0.4) rotateY(45deg);
-      transform: scale(0.4) rotateY(45deg);
+      width: 1400px;
+      height: 1600px;
+      top: -280px;
+      left: -397px;
+      -webkit-transform: scale(0.7) rotateY(45deg);
+      -ms-transform: scale(0.7) rotateY(45deg);
+      transform: scale(0.7) rotateY(45deg);
+    }
+    .newCanvas {
+      z-index: 1000;
+      position: relative;
+      left: -1295px;
+      top: -570px;
+      transform: scale(0.5);
+      height: 1700px;
+      width: 3363px;
     }
     .h1_title {
+        position: relative;
+        z-index: 1000;
         font-size: 50px;
         line-height: 58px;
         width: 532px;
