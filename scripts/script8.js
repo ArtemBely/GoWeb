@@ -1,4 +1,5 @@
-const popupLinks2 = document.querySelectorAll(".cps_modular_btn");
+const popupLinks2 = document.querySelector(".cps_modular_btn");
+
 
 const inputPurpose = document.querySelector('#input_purpose');
 const dropList = document.querySelector('.droplist');
@@ -20,21 +21,16 @@ for(item of dropItem){
   }
 }
 
-
-if (popupLinks2.length > 0) {
-  for (let index = 0; index < popupLinks2.length; index++) {
-    const popupLink = popupLinks2[index];
-    popupLink.addEventListener("click", function (e) {
-      const popupName = popupLink.getAttribute("href").replace("#", "");
+popupLinks2.addEventListener('click', function (e) {
+      const popupName = popupLinks2.getAttribute("href").replace("#", "");
+      console.log(popupName);
       const curentPopup = document.getElementById(popupName);
+      console.log(curentPopup);
       popupOpen(curentPopup);
       e.preventDefault();
-    });
-  }
-}
+})
 
 const popupCloseIcon2 = document.querySelectorAll(".popup_close2");
-
 
 if (popupCloseIcon2.length > 0) {
   for (let index = 0; index < popupCloseIcon2.length; index++) {
