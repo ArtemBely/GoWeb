@@ -52,11 +52,11 @@
       position: absolute;
       width: 1400px;
       height: 1600px;
-      top: -280px;
-      left: -397px;
-      -webkit-transform: scale(0.7) rotateY(45deg);
-      -ms-transform: scale(0.7) rotateY(45deg);
-      transform: scale(0.7) rotateY(45deg);
+      top: -480px;
+      left: -596px;
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6);
     }
     .newCanvas {
       z-index: 1000;

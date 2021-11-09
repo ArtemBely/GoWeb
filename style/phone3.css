@@ -258,14 +258,14 @@
         position: absolute;
         width: 1481px;
         height: 1629px;
-        top: -610px;
+        top: -687px;
         left: -658px;
         -webkit-transform: scale(0.3);
             -ms-transform: scale(0.3);
                 transform: scale(0.3);
     }
 
-     
+
     .cps_computing {
         position: relative;
         margin-top: -164px !important;
